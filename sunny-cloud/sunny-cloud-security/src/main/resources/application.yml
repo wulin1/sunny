@@ -1,0 +1,47 @@
+server:
+  port: 80
+  servlet:
+    session:
+      timeout: 60m
+      cookie:
+        name: JSESSIONID
+
+spring:
+  application:
+    name: sunny-cloud-security
+  datasource:
+    url: jdbc:mysql://db.sunny.com:3306/sunny?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  session:
+    store-type: redis
+  redis:
+    host: 127.0.0.1
+    database: 5
+    port: 6379
+  mvc:
+    static-path-pattern: /static/**
+  main:
+    allow-bean-definition-overriding: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://dev.lyyzoo.com:8000/eureka/}
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${random.int}
+
+sunny:
+  social:
+    filterProcessesUrl: /openid
+    qq:
+      app-id: 101514978
+      app-secret: 3fb5da91d5e0fc41b218e7cbb5356738
+
+logging:
+  level:
+    org.apache.ibatis: debug
+    com.lyyzoo: debug
+    org.springframework.security: debug
+    org.springframework.social: debug

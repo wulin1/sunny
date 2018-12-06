@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.lyyzoo.sunny.starter</groupId>
+        <artifactId>sunny-starter</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>sunny-starter-swagger</artifactId>
+    <version>${sunny.starter.version}</version>
+    <packaging>jar</packaging>
+    <name>sunny-starter-swagger</name>
+    <description>sunny starter swagger</description>
+
+    <properties>
+        <swagger.version>1.6.0.RELEASE</swagger.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.lyyzoo.sunny.starter</groupId>
+            <artifactId>sunny-starter-core</artifactId>
+        </dependency>
+
+        <!-- swagger -->
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

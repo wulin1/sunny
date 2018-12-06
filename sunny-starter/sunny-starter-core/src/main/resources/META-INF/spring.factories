@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lyyzoo.sunny.core.autoconfigure.SunnyAutoConfiguration,\
+com.lyyzoo.sunny.core.autoconfigure.MyBatisAutoConfiguration,\
+com.lyyzoo.sunny.core.redis.SunnyRedisAutoConfiguration
