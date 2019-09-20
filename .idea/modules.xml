@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/sunny.iml" filepath="$PROJECT_DIR$/.idea/sunny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-admin/sunny-admin.iml" filepath="$PROJECT_DIR$/sunny-admin/sunny-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-cloud/sunny-cloud.iml" filepath="$PROJECT_DIR$/sunny-cloud/sunny-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-cloud/sunny-cloud-register/sunny-cloud-register.iml" filepath="$PROJECT_DIR$/sunny-cloud/sunny-cloud-register/sunny-cloud-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-cloud/sunny-cloud-security/sunny-cloud-security.iml" filepath="$PROJECT_DIR$/sunny-cloud/sunny-cloud-security/sunny-cloud-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-parent/sunny-parent.iml" filepath="$PROJECT_DIR$/sunny-parent/sunny-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-starter/sunny-starter.iml" filepath="$PROJECT_DIR$/sunny-starter/sunny-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-starter/sunny-starter-captcha/sunny-starter-captcha.iml" filepath="$PROJECT_DIR$/sunny-starter/sunny-starter-captcha/sunny-starter-captcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-starter/sunny-starter-common/sunny-starter-common.iml" filepath="$PROJECT_DIR$/sunny-starter/sunny-starter-common/sunny-starter-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-starter/sunny-starter-core/sunny-starter-core.iml" filepath="$PROJECT_DIR$/sunny-starter/sunny-starter-core/sunny-starter-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunny-starter/sunny-starter-swagger/sunny-starter-swagger.iml" filepath="$PROJECT_DIR$/sunny-starter/sunny-starter-swagger/sunny-starter-swagger.iml" />
+    </modules>
+  </component>
+</project>

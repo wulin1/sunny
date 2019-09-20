@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sunny-admin" />
+        <module name="sunny-cloud-register" />
+        <module name="sunny-cloud-security" />
+        <module name="sunny-starter-captcha" />
+        <module name="sunny-starter-common" />
+        <module name="sunny-starter-core" />
+        <module name="sunny-starter-swagger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sunny-admin" target="1.8" />
+      <module name="sunny-cloud" target="1.8" />
+      <module name="sunny-cloud-register" target="1.8" />
+      <module name="sunny-cloud-security" target="1.8" />
+      <module name="sunny-parent" target="1.8" />
+      <module name="sunny-starter" target="1.8" />
+      <module name="sunny-starter-captcha" target="1.8" />
+      <module name="sunny-starter-common" target="1.8" />
+      <module name="sunny-starter-core" target="1.8" />
+      <module name="sunny-starter-swagger" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
